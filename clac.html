@@ -9,13 +9,18 @@
   </head>
   <body>
     <div id="container">
-      <input id="display" readonly />
+      <div>
+        <input id="display" readonly />
+      </div>
       <div id="buttons">
-        <button id="add">+</button>
-        <button id="multiply">x</button>
-        <button id="subtract">-</button>
-        <button id="divide">/</button>
-        <button id="Equals">=</button>
+        <div id="operators">
+          <button id="add">+</button>
+          <button id="multiply">x</button>
+          <button id="subtract">-</button>
+          <button id="divide">/</button>
+          <button id="Equals">=</button>
+      </div>
+      <div id="numbers">
         <button class="zero" value="0" id="zero">0</button>
         <button class="one" value="1">1</button>
         <button class="two" value="2">2</button>
@@ -27,7 +32,7 @@
         <button class="eight" value="8">8</button>
         <button class="nine" value="9">9</button>
         <button class="dot" value=".">.</button>
-        <button class="clear">C</button>
+        <button class="clear">AC</button>
       </div>
     </div>
   </body>

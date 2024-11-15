@@ -2,8 +2,28 @@ body {
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 #container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rebeccapurple;
+  max-width: 400px;
+  overflow: hidden;
+}
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+width: 100px;
+height: 100px;
+border-radius: 50px;
+border: none;
+background-color: hsl(0, 0%, 30%);
+color: white;
+font-size: 3rem;
+font-weight: bold;
+cursor: pointer;
 }
