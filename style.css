@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 #container {
   display: flex;
@@ -12,16 +13,17 @@ body {
   overflow: hidden;
   padding: 25px;
   border-radius: 15px;
+  gap: 10px;
 }
 #operators {
 /* display: flex; */
 /* flex-direction: column; */
 /* padding: 10px; */
+gap: 10px;
 }
-/* #numbers {
-  display: flex;
-  flex-wrap: wrap;
-} */
+#numbers {
+  gap: 20px;
+}
 #Equals {
 width: 100%;
 }
@@ -35,4 +37,15 @@ color: white;
 font-size: 3rem;
 font-weight: bold;
 cursor: pointer;
+gap:0px;
+margin-bottom: 10px;
+}
+#display{
+  width: 100%;
+  padding: 20px; 
+  font-size: 5rem;
+  border: none;
+  text-align: left;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
 }
